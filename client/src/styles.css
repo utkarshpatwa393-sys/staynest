@@ -116,4 +116,41 @@ label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; colo
 .empty { text-align: center; padding: 60px 0; }
 .footer { text-align: center; color: var(--muted); padding: 24px; border-top: 1px solid var(--border); }
 
-/* TODO: detail-layout and search-bar break on mobile (<768px) - see "Mobile responsive" issue */
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .search-bar input:first-child,
+  .search-bar .btn {
+    width: 100%;
+  }
+  .detail-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .booking-box {
+    position: static;
+    top: auto;
+  }
+  .trip {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .trip img {
+    width: 100%;
+    height: 180px;
+  }
+  .trip-side {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+}
