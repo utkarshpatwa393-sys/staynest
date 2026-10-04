@@ -14,6 +14,20 @@ It is built as a **beginner-friendly open-source project**: real features, clear
 - 🧑‍💼 Host dashboard: create / edit / delete listings, accept or decline bookings
 - ⭐ Reviews (only after a completed stay) with automatic average rating
 
+## 📸 Screenshots
+
+### Explore & Search
+![Explore Stays](./docs/screenshots/explore.png)
+
+### Listing Detail & Reservation
+![Listing Detail](./docs/screenshots/listing-detail.png)
+
+### My Trips
+![My Trips](./docs/screenshots/my-trips.png)
+
+### Host Dashboard
+![Host Dashboard](./docs/screenshots/host-dashboard.png)
+
 ## 🧱 Tech stack
 
 | Layer    | Tech                                 |
